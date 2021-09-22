@@ -4,6 +4,6 @@
     margin: 0;
 }
 
-.place__text:not(last-child) {
+.place__text:not(:last-child) {
     margin-bottom: 28px;
 }
