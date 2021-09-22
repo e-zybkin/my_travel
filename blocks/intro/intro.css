@@ -1,0 +1,7 @@
+.intro {
+    display: flex;
+    max-width: 990px;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-right: 77px;
+}
