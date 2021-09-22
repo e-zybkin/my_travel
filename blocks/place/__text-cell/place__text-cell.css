@@ -1,0 +1,10 @@
+.place__text-cell {
+    background-color: #E5E5E5;
+    max-width: 554px;
+    max-height: 460px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 59px 184px 75px 63px;
+}
