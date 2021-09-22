@@ -1,0 +1,10 @@
+.people-talk {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 1215px;
+  min-height: 412px;
+  padding: 0;
+  margin: 136px 90px 120px 72px;
+  font-family:Roboto, 'Helvetica Neue', sans-serif;
+}
