@@ -17,15 +17,16 @@
 @import url(../blocks/intro/__caption/intro__caption.css);
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__image/intro__image.css);
+
 @import url(../blocks/places/places.css);
 @import url(../blocks/place/place.css);
+@import url(../blocks/place/_reversed/place_reversed.css);
 @import url(../blocks/place/__text-cell/place__text-cell.css);
-@import url(../blocks/place/__text-cell/_position/place__text-cell_position_right.css);
+@import url(../blocks/place/__text-cell/_small-bottom/place__text-cell_small-bottom.css);
 @import url(../blocks/place/__title/place__title.css);
 @import url(../blocks/place/__paragraphs/place__paragraphs.css);
 @import url(../blocks/place/__text/place__text.css);
 @import url(../blocks/place/__image/place__image.css);
-@import url(../blocks/place/__image/_position/place__image_position_left.css);
 @import url(../blocks/people-talk/people-talk.css);
 @import url(../blocks/people-talk/__main/people-talk__main.css);
 @import url(../blocks/people-talk/__caption/people-talk__caption.css);
