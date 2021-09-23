@@ -1,0 +1,9 @@
+.header__caption {
+    text-transform: uppercase;
+    margin: 0 0 40px 0;
+    color: #FEDEC3;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 3%;
+    line-height: 1.7;
+}

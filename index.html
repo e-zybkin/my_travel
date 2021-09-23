@@ -1,122 +1,134 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./pages/index.css">
-  <title>Куда я поеду?</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./pages/index.css">
+    <title>Куда я поеду?</title>
 </head>
 <body>
-  <div class="page">
+<div class="page">
     <div class="wrapper">
-      <header class="header">
-        <nav class="header__links">
-          <a class="header__link"></a>
-          <a class="header__link"></a>
-          <a class="header__link"></a>
-        </nav>
-        <a class="header__complaint"></a>
-      </header>
-      <main class="content">
-        <section class="intro">
-          <div class="intro__content">
-            <p class="intro__caption"></p>
-            <h1 class="intro__title"></h1>
-          </div>
-          <img
-            class="intro__image"
-            src=""
-            alt=""
-          >
-        </section>
-
-        <section class="places">
-          <article class="place">
-            <h2 class="place__title"></h2>
-            <div class="place__paragraphs">
-              <p class="place__text"></p>
-              <p class="place__text"></p>
+        <header class="header">
+            <nav class="header__links">
+                <ul class="header__links-list">
+                    <li class="header__links-item"><a class="header__link" href="#">Мечты</a></li>
+                    <li class="header__links-item"><a class="header__link" href="#">Ожидания</a></li>
+                    <li class="header__links-item"><a class="header__link" href="#">Реальность</a></li>
+                </ul>
+                <ul class="header__links-list">
+                    <li class="header__links-item"><a class="header__complaint header__link" href="#">Пожаловаться</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header__intro">
+                <div class="header__content">
+                    <p class="header__caption">куда я поеду</p>
+                    <h1 class="header__title">Куда я поеду сразу, как можно будет куда-то поехать</h1>
+                </div>
+                <img class="header__image" src="./images/intro-image.jpeg"
+                     alt="Фото самолета в облаках с лучами заходящего солнца">
             </div>
-            <img
-              class="place__image"
-              src=""
-              alt=""
-            >
-          </article>
+        </header>
+        <main class="content">
 
-          <article class="place">
-            <h2 class="place__title"></h2>
-            <p class="place__text"></p>
-            <img
-              class="place__image"
-              src=""
-              alt=""
-            >
-          </article>
+            <section class="places">
+                <article class="place__text-cell">
+                    <h2 class="place__title">Поеду в лес</h2>
+                    <div class="place__paragraphs">
+                        <p class="place__text">Лес — экологическая система, биоценоз, в которой главной жизненной
+                            формой
+                            являются деревья.</p>
+                        <p class="place__text">Лес — составная часть природы, понятие «лес» можно рассматривать на
+                            разных уровнях. В глобальном масштабе — это часть биосферы, в локальном — это может быть
+                            насаждение. Леса занимают около трети площади суши.</p>
+                    </div>
+                </article>
+                <img
+                        class="place__image"
+                        src="./images/places-forest.jpeg"
+                        alt="Фото молодого человека в лесу с видом на водопад"
+                >
+                <article class="place__text-cell place__text-cell_position_right">
+                    <h2 class="place__title">Поеду в горы</h2>
+                    <p class="place__text">Горные системы занимают 64 % поверхности Азии, 36 % — Северной Америки,
+                        25 %
+                        — Европы, 22 % — Южной Америки, 17 % — Австралии и 3 % — Африки. В целом 24 % земной
+                        поверхности
+                        приходится на горы. 10 % всех людей живёт на территории гор. В горах берёт своё начало
+                        большинство рек Земли.</p>
+                </article>
+                <img
+                        class="place__image place__image_position_left"
+                        src="./images/places-mountains.jpeg"
+                        alt="Фото молодого туриста, смотрящего на солнце над пиком горы">
+                <article class="place__text-cell">
+                    <h2 class="place__title">Поеду на Чёрное море</h2>
+                    <div class="place__paragraphs">
+                        <p class="place__text">Я уплыву туда, где ни разу я не был, туда, где никто раньше не был.
+                            Никто
+                            и никогда раньше не был, я уплыву. Я позову тебя смотреть на синее небо и пить по капле
+                            синее небо, и падать в это синее небо, я позову.</p>
+                        <p class="place__text">Уеду я на Чёрное-Чёрное море, на Чёрное-Чёрное море, на Чёрное-Чёрное
+                            море уеду я. Уеду я на Чёрное-Чёрное море, на Чёрное-Чёрное море, на Чёрное-Чёрное
+                            море.</p>
+                        <p class="place__text">Уеду я.</p>
+                    </div>
+                </article>
+                <img
+                        class="place__image"
+                        src="./images/places-black-sea.jpeg"
+                        alt="Фото девушки на берегу Черного моря">
+            </section>
 
-          <article class="place">
-            <h2 class="place__title"></h2>
-            <div class="place__paragraphs">
-              <p class="place__text"></p>
-              <p class="place__text"></p>
-              <p class="place__text"></p>
-            </div>
-            <img
-              class="place__image"
-              src=""
-              alt=""
-            >
-          </article>
-        </section>
+            <section class="people-talk">
+                <div class="people-talk__main">
+                    <p class="people-talk__caption"></p>
+                    <h2 class="people-talk__title"></h2>
+                </div>
 
-        <section class="people-talk">
-          <div class="people-talk__main">
-            <p class="people-talk__caption"></p>
-            <h2 class="people-talk__title"></h2>
-          </div>
+                <div class="people-talks__columns">
+                    <div class="people-talk__column">
+                        <h3 class="people-talk__subtitle"></h3>
+                        <p class="people-talk__paragraph"></p>
+                    </div>
 
-          <div class="people-talks__columns">
-            <div class="people-talk__column">
-              <h3 class="people-talk__subtitle"></h3>
-              <p class="people-talk__paragraph"></p>
-            </div>
+                    <div class="people-talk__column">
+                        <h3 class="people-talk__subtitle"></h3>
+                        <p class="people-talk__paragraph"></p>
+                    </div>
 
-            <div class="people-talk__column">
-              <h3 class="people-talk__subtitle"></h3>
-              <p class="people-talk__paragraph"></p>
-            </div>
+                    <div class="people-talk__column">
+                        <h3 class="people-talk__subtitle"></h3>
+                        <p class="people-talk__paragraph"></p>
+                    </div>
 
-            <div class="people-talk__column">
-              <h3 class="people-talk__subtitle"></h3>
-              <p class="people-talk__paragraph"></p>
-            </div>
+                    <div class="people-talk__column">
+                        <h3 class="people-talk__subtitle"></h3>
+                        <p class="people-talk__paragraph"></p>
+                    </div>
+                </div>
+            </section>
 
-            <div class="people-talk__column">
-              <h3 class="people-talk__subtitle"></h3>
-              <p class="people-talk__paragraph"></p>
-            </div>
-          </div>
-        </section>
+            <section class="timetable">
+                <div class="timetable__form-container">
 
-        <section class="timetable">
-          <div class="timetable__form-container">
+                </div>
+                <img
+                        class="timetable__image"
+                        src=""
+                        alt=""
+                >
+            </section>
 
-          </div>
-          <img
-            class="timetable__image"
-            src=""
-            alt=""
-          >
-        </section>
-
-        <section class="video">
-          <h2 class="video__title"></h2>
-        </section>
-      </main>
-      <footer class="footer">
-        <p class="footer__copyright">&copy; 2021</p>
-      </footer>
+            <section class="video">
+                <h2 class="video__title"></h2>
+            </section>
+        </main>
+        <footer class="footer">
+            <p class="footer__copyright">&copy; 2021</p>
+        </footer>
     </div>
-  </div>
+</div>
 </body>
 </html>
