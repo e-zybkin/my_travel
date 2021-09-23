@@ -1,143 +1,198 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./pages/index.css">
-    <title>Куда я поеду?</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./pages/index.css">
+  <title>Куда я поеду?</title>
 </head>
 <body>
-<div class="page">
-    <div class="wrapper">
-        <header class="header">
-            <nav>
-                <ul class="header__links">
-                    <li class="header__links-item"><a class="header__link" href="#">Мечты</a></li>
-                    <li class="header__links-item"><a class="header__link" href="#">Ожидания</a></li>
-                    <li class="header__links-item"><a class="header__link" href="#">Реальность</a></li>
-                </ul>
-            </nav>
-            <a class="header__complaint header__link" href="#">Пожаловаться</a>
-        </header>
-        <main class="content">
-            <section class="intro">
-                <div class="intro__content">
-                    <p class="intro__caption">куда я поеду</p>
-                    <h1 class="intro__title">Куда я поеду сразу, как можно будет куда-то поехать</h1>
-                </div>
-                <img class="intro__image" src="./images/intro-image.jpeg"
-                     alt="Фото самолета в облаках с лучами заходящего солнца">
-            </section>
-            <section class="places">
-                <article class="place">
-                    <img
-                            class="place__image"
-                            src="./images/places-forest.jpeg"
-                            alt="Фото молодого человека в лесу с видом на водопад">
-                    <div class="place__text-cell">
-                        <h2 class="place__title">Поеду в лес</h2>
-                        <div class="place__paragraphs">
-                            <p class="place__text">Лес&nbsp;&mdash; экологическая система, биоценоз, в&nbsp;которой
-                                главной жизненной формой являются деревья.</p>
-                            <p class="place__text">Лес&nbsp;&mdash; составная часть природы, понятие &laquo;лес&raquo;
-                                можно рассматривать на
-                                разных уровнях. В&nbsp;глобальном масштабе&nbsp;&mdash; это часть биосферы, в&nbsp;локальном&nbsp;&mdash;
-                                это может быть
-                                насаждение. Леса занимают около трети площади суши.</p>
-                        </div>
-                    </div>
-                </article>
-                <article class="place place_reversed">
-                    <img
-                            class="place__image"
-                            src="./images/places-mountains.jpeg"
-                            alt="Фото молодого туриста, смотрящего на солнце над пиком горы">
-                    <div class="place__text-cell">
-                        <h2 class="place__title">Поеду в горы</h2>
-                        <p class="place__text">Горные системы занимают 64&nbsp;% поверхности Азии, 36&nbsp;%&nbsp;&mdash;
-                            Северной Америки,
-                            25&nbsp;%
-                            &mdash;&nbsp;Европы, 22&nbsp;%&nbsp;&mdash; Южной Америки, 17&nbsp;%&nbsp;&mdash; Австралии
-                            и&nbsp;3&nbsp;%&nbsp;&mdash; Африки. В&nbsp;целом 24&nbsp;% земной
-                            поверхности
-                            приходится на&nbsp;горы.&nbsp;10&nbsp;% всех людей живёт на&nbsp;территории гор. В&nbsp;горах
-                            берёт своё начало
-                            большинство рек Земли.</p>
-                    </div>
-                </article>
-                <article class="place">
-                    <img class="place__image" src="./images/places-black-sea.jpeg"
-                         alt="Фото девушки на берегу Черного моря">
-                    <div class="place__text-cell place__text-cell_small-bottom">
-                        <h2 class="place__title">Поеду на Чёрное море</h2>
-                        <div class="place__paragraphs">
-                            <p class="place__text">Я&nbsp;уплыву туда, где ни&nbsp;разу я&nbsp;не&nbsp;был, туда, где
-                                никто раньше не&nbsp;был.
-                                Никто
-                                и&nbsp;никогда раньше не&nbsp;был, я&nbsp;уплыву. Я&nbsp;позову тебя смотреть на&nbsp;синее
-                                небо и&nbsp;пить по&nbsp;капле
-                                синее небо, и&nbsp;падать в&nbsp;это синее небо, я&nbsp;позову.</p>
-                            <p class="place__text">Уеду я&nbsp;на&nbsp;Чёрное-Чёрное море, на&nbsp;Чёрное-Чёрное море,
-                                на
-                                Чёрное-Чёрное
-                                море уеду&nbsp;я. Уеду я&nbsp;на&nbsp;Чёрное-Чёрное море, на&nbsp;Чёрное-Чёрное море, на&nbsp;Чёрное-Чёрное
-                                море.</p>
-                            <p class="place__text">Уеду я.</p>
-                        </div>
-                    </div>
-                </article>
-            </section>
+<div class="wrapper">
+  <header class="header">
+    <nav class="header__links">
+      <ul class="header__links-list">
+        <li class="header__links-item">
+          <a class="header__link" href="#">Мечты</a>
+        </li>
+        <li class="header__links-item">
+          <a class="header__link" href="#">Ожидания</a>
+        </li>
+        <li class="header__links-item">
+          <a class="header__link" href="#">Реальность</a>
+        </li>
+      </ul>
+      <ul class="header__links-list">
+        <li class="header__links-item">
+          <a class="header__complaint header__link" href="#"
+          >Пожаловаться</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <div class="header__intro">
+      <div class="header__content">
+        <p class="header__caption">куда я поеду</p>
+        <h1 class="header__title">
+          Куда я поеду сразу, как можно будет куда-то поехать
+        </h1>
+      </div>
+      <img
+        class="header__image"
+        src="./images/intro-image.jpeg"
+        alt="Фото самолета в облаках с лучами заходящего солнца"
+      >
+    </div>
+  </header>
+  <main class="content">
+    <section class="places">
+      <div class="place place_reversed">
+        <article class="place__text-cell">
+          <h2 class="place__title">Поеду в лес</h2>
+          <div class="place__paragraphs">
+            <p class="place__text">
+              Лес — экологическая система, биоценоз, в которой главной
+              жизненной формой являются деревья.
+            </p>
+            <p class="place__text">
+              Лес — составная часть природы, понятие «лес» можно рассматривать
+              на разных уровнях. В глобальном масштабе — это часть биосферы, в
+              локальном — это может быть насаждение. Леса занимают около трети
+              площади суши.
+            </p>
+          </div>
+        </article>
+        <img
+          class="place__image"
+          src="./images/places-forest.jpeg"
+          alt="Фото молодого человека в лесу с видом на водопад"
+        >
+      </div>
+      <div class="place">
+        <article class="place__text-cell place__text-cell_position_right">
+          <h2 class="place__title">Поеду в горы</h2>
+          <p class="place__text">
+            Горные системы занимают 64 % поверхности Азии, 36 % — Северной
+            Америки, 25 % — Европы, 22 % — Южной Америки, 17 % — Австралии и 3
+            % — Африки. В целом 24 % земной поверхности приходится на горы. 10
+            % всех людей живёт на территории гор. В горах берёт своё начало
+            большинство рек Земли.
+          </p>
+        </article>
+        <img
+          class="place__image place__image_position_left"
+          src="./images/places-mountains.jpeg"
+          alt="Фото молодого туриста, смотрящего на солнце над пиком горы"
+        >
+      </div>
+      <div class="place place_reversed">
+        <article class="place__text-cell">
+          <h2 class="place__title">Поеду на Чёрное море</h2>
+          <div class="place__paragraphs">
+            <p class="place__text">
+              Я уплыву туда, где ни разу я не был, туда, где никто раньше не
+              был. Никто и никогда раньше не был, я уплыву. Я позову тебя
+              смотреть на синее небо и пить по капле синее небо, и падать в
+              это синее небо, я позову.
+            </p>
+            <p class="place__text">
+              Уеду я на Чёрное-Чёрное море, на Чёрное-Чёрное море, на
+              Чёрное-Чёрное море уеду я. Уеду я на Чёрное-Чёрное море, на
+              Чёрное-Чёрное море, на Чёрное-Чёрное море.
+            </p>
+            <p class="place__text">Уеду я.</p>
+          </div>
+        </article>
+        <img
+          class="place__image"
+          src="./images/places-black-sea.jpeg"
+          alt="Фото девушки на берегу Черного моря"
+        >
+      </div>
+    </section>
 
-            <section class="people-talk">
-                <div class="people-talk__main">
-                    <p class="people-talk__caption"></p>
-                    <h2 class="people-talk__title"></h2>
-                </div>
+    <section class="people-talk">
+      <div class="people-talk__main">
+        <p class="people-talk__caption">ЛЮДИ</p>
+        <h2 class="people-talk__title">
+          Что говорят и говорили люди о путешествиях
+        </h2>
+      </div>
 
-                <div class="people-talks__columns">
-                    <div class="people-talk__column">
-                        <h3 class="people-talk__subtitle"></h3>
-                        <p class="people-talk__paragraph"></p>
-                    </div>
+      <div class="people-talk__columns">
+        <div class="people-talk__column">
+          <h3 class="people-talk__subtitle">ИВАН БУНИН</h3>
+          <p class="people-talk__paragraph">
+            Человека делают счастливым три вещи: любовь, интересная работа и
+            возможность путешествовать.
+          </p>
+        </div>
 
-                    <div class="people-talk__column">
-                        <h3 class="people-talk__subtitle"></h3>
-                        <p class="people-talk__paragraph"></p>
-                    </div>
+        <div class="people-talk__column">
+          <h3 class="people-talk__subtitle">АЛЬБЕР КАМЮ</h3>
+          <p class="people-talk__paragraph">
+            Путешествие как самая великая и серьезная наука помогает нам
+            вновь обрести себя.
+          </p>
+        </div>
 
-                    <div class="people-talk__column">
-                        <h3 class="people-talk__subtitle"></h3>
-                        <p class="people-talk__paragraph"></p>
-                    </div>
+        <div class="people-talk__column">
+          <h3 class="people-talk__subtitle">НОРВЕЖСКАЯ ПОСЛОВИЦА</h3>
+          <p class="people-talk__paragraph">
+            Лишь тот, кто странствует, открывает новые пути.
+          </p>
+        </div>
 
-                    <div class="people-talk__column">
-                        <h3 class="people-talk__subtitle"></h3>
-                        <p class="people-talk__paragraph"></p>
-                    </div>
-                </div>
-            </section>
-
-            <section class="timetable">
-                <div class="timetable__form-container">
-
-                </div>
-                <img
-                        class="timetable__image"
-                        src=""
-                        alt=""
-                >
-            </section>
-            <section class="video">
+        <div class="people-talk__column">
+          <h3 class="people-talk__subtitle">МАРИЯ ЗАХАРОВА</h3>
+          <p class="people-talk__paragraph">
+            В принципе зарубежная поездка – это серьезнейшее,
+            ответственнейшее и очень рискованное предприятие.
+          </p>
+        </div>
+      </div>
+    </section>
+           
+    <section class="timetable">
+      <div class="timetable__form-container">
+        <form class="timetable__form">
+          <h2 class="timetable__heading">Так куда же я поеду?</h2>
+          <fieldset class="timetable__fieldset">
+            <input
+              type="text"
+              class="timetable__where"
+              placeholder="Я поеду ..."
+              required
+            >
+            <input
+              type="text"
+              class="timetable__why"
+              placeholder="Потому что я ..."
+              required
+            >
+            <input
+              type="submit"
+              class="timetable__button"
+              value="Поехали уже куда нибудь!"
+            >
+          </fieldset>
+        </form>
+      </div>
+      <img
+        class="timetable__image"
+        src="./images/airport-schedule.jpg"
+        alt="Информационное табло"
+      >
+    </section>
+ <section class="video">
                 <a href="https://youtu.be/JGNiMutYBm4" class="video__link" target="_blank">
                     <h2 class="video__title">А пока что - всё ещё сидим дома!</h2>
                     <div class="video__button"></div>
                 </a>
-            </section>
-        </main>
-        <footer class="footer">
-            <p class="footer__copyright">&copy; 2021</p>
-        </footer>
-    </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <p class="footer__copyright">&copy; 2021</p>
+  </footer>
 </div>
 </body>
 </html>

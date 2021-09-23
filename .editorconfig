@@ -44,4 +44,4 @@ trim_trailing_whitespace = true
 # Possible values - true, false
 
 insert_final_newline = true
-© 2021 GitHub, Inc.
+#© 2021 GitHub, Inc.
