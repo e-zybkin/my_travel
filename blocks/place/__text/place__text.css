@@ -1,0 +1,9 @@
+.place__text {
+    font-size: 14px;
+    line-height: 1.57;
+    margin: 0;
+}
+
+.place__text:not(:last-child) {
+    margin-bottom: 35px;
+}
