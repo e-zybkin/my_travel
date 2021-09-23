@@ -1,8 +1,8 @@
 .header__intro {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 91px;
-    padding-right: 96px;
-    box-sizing: content-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 91px;
+  padding-right: 96px;
+  box-sizing: content-box;
 }
