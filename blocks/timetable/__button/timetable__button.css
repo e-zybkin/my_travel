@@ -1,0 +1,14 @@
+.timetable__button {
+  max-width: 220px;
+  min-height: 35px;
+  border: none;
+  background-color: black;
+  color: white;
+  font-family:Roboto, 'Helvetica Neue', sans-serif;
+  margin: 0;
+  font-weight: regular;
+  font-size: 16px;
+  letter-spacing: 3%;
+  text-align: center;
+  align-self: flex-end;
+}

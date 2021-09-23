@@ -27,6 +27,12 @@
 @import url(../blocks/people-talk/__paragraph/people-talk__paragraph.css);
 @import url(../blocks/timetable/timetable.css);
 @import url(../blocks/timetable/__form-container/timetable__form-container.css);
+@import url(../blocks/timetable/__form/timetable__form.css);
+@import url(../blocks/timetable/__heading/timetable__heading.css);
+@import url(../blocks/timetable/__fieldset/timetable__fieldset.css);
+@import url(../blocks/timetable/__where/timetable__where.css);
+@import url(../blocks/timetable/__why/timetable__why.css);
+@import url(../blocks/timetable/__button/timetable__button.css);
 @import url(../blocks/timetable/__image/timetable__image.css);
 @import url(../blocks/video/video.css);
 @import url(../blocks/video/__title/video__title.css);

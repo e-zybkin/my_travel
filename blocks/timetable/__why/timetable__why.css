@@ -1,0 +1,18 @@
+.timetable__why {
+  font-family:Roboto, 'Helvetica Neue', sans-serif;
+  position: relative;
+  border: none;
+  width: 100%;
+  min-height: 108px;
+  margin: 0 0 20px 0;
+  padding: 0;
+  font-weight: regular;
+  font-size: 18px;
+  letter-spacing: 3%;
+}
+
+.timetable__why::placeholder {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+}
