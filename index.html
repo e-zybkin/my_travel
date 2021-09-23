@@ -9,24 +9,41 @@
 <body>
 <div class="wrapper">
     <header class="header">
-        <nav>
-            <ul class="header__links">
-                <li class="header__links-item"><a class="header__link" href="#">Мечты</a></li>
-                <li class="header__links-item"><a class="header__link" href="#">Ожидания</a></li>
-                <li class="header__links-item"><a class="header__link" href="#">Реальность</a></li>
+        <nav class="header__links">
+            <ul class="header__links-list">
+                <li class="header__links-item">
+                    <a class="header__link" href="#">Мечты</a>
+                </li>
+                <li class="header__links-item">
+                    <a class="header__link" href="#">Ожидания</a>
+                </li>
+                <li class="header__links-item">
+                    <a class="header__link" href="#">Реальность</a>
+                </li>
+            </ul>
+            <ul class="header__links-list">
+                <li class="header__links-item">
+                    <a class="header__complaint header__link" href="#"
+                    >Пожаловаться</a
+                    >
+                </li>
             </ul>
         </nav>
-        <a class="header__complaint header__link" href="#">Пожаловаться</a>
+        <div class="header__intro">
+            <div class="header__content">
+                <p class="header__caption">куда я поеду</p>
+                <h1 class="header__title">
+                    Куда я поеду сразу, как можно будет куда-то поехать
+                </h1>
+            </div>
+            <img
+                    class="header__image"
+                    src="./images/intro-image.jpeg"
+                    alt="Фото самолета в облаках с лучами заходящего солнца"
+            >
+        </div>
     </header>
     <main class="content">
-        <section class="intro">
-            <div class="intro__content">
-                <p class="intro__caption">куда я поеду</p>
-                <h1 class="intro__title">Куда я поеду сразу, как можно будет куда-то поехать</h1>
-            </div>
-            <img class="intro__image" src="./images/intro-image.jpeg"
-                 alt="Фото самолета в облаках с лучами заходящего солнца">
-        </section>
         <section class="places">
             <article class="place">
                 <img
@@ -89,41 +106,75 @@
 
         <section class="people-talk">
             <div class="people-talk__main">
-                <p class="people-talk__caption"></p>
-                <h2 class="people-talk__title"></h2>
+                <p class="people-talk__caption">ЛЮДИ</p>
+                <h2 class="people-talk__title">
+                    Что говорят и говорили люди о путешествиях
+                </h2>
             </div>
 
-            <div class="people-talks__columns">
+            <div class="people-talk__columns">
                 <div class="people-talk__column">
-                    <h3 class="people-talk__subtitle"></h3>
-                    <p class="people-talk__paragraph"></p>
+                    <h3 class="people-talk__subtitle">ИВАН БУНИН</h3>
+                    <p class="people-talk__paragraph">
+                        Человека делают счастливым три вещи: любовь, интересная работа и
+                        возможность путешествовать.
+                    </p>
                 </div>
 
                 <div class="people-talk__column">
-                    <h3 class="people-talk__subtitle"></h3>
-                    <p class="people-talk__paragraph"></p>
+                    <h3 class="people-talk__subtitle">АЛЬБЕР КАМЮ</h3>
+                    <p class="people-talk__paragraph">
+                        Путешествие как самая великая и серьезная наука помогает нам
+                        вновь обрести себя.
+                    </p>
                 </div>
 
                 <div class="people-talk__column">
-                    <h3 class="people-talk__subtitle"></h3>
-                    <p class="people-talk__paragraph"></p>
+                    <h3 class="people-talk__subtitle">НОРВЕЖСКАЯ ПОСЛОВИЦА</h3>
+                    <p class="people-talk__paragraph">
+                        Лишь тот, кто странствует, открывает новые пути.
+                    </p>
                 </div>
 
                 <div class="people-talk__column">
-                    <h3 class="people-talk__subtitle"></h3>
-                    <p class="people-talk__paragraph"></p>
+                    <h3 class="people-talk__subtitle">МАРИЯ ЗАХАРОВА</h3>
+                    <p class="people-talk__paragraph">
+                        В принципе зарубежная поездка – это серьезнейшее,
+                        ответственнейшее и очень рискованное предприятие.
+                    </p>
                 </div>
             </div>
         </section>
 
         <section class="timetable">
             <div class="timetable__form-container">
-
+                <form class="timetable__form">
+                    <h2 class="timetable__heading">Так куда же я поеду?</h2>
+                    <fieldset class="timetable__fieldset">
+                        <input
+                                type="text"
+                                class="timetable__where"
+                                placeholder="Я поеду ..."
+                                required
+                        >
+                        <input
+                                type="text"
+                                class="timetable__why"
+                                placeholder="Потому что я ..."
+                                required
+                        >
+                        <input
+                                type="submit"
+                                class="timetable__button"
+                                value="Поехали уже куда нибудь!"
+                        >
+                    </fieldset>
+                </form>
             </div>
             <img
                     class="timetable__image"
-                    src=""
-                    alt=""
+                    src="./images/airport-schedule.jpg"
+                    alt="Информационное табло"
             >
         </section>
 
