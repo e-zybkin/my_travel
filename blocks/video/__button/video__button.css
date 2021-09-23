@@ -1,0 +1,12 @@
+.video__button {
+    background-image: url("../../../images/video-button.svg");
+    z-index: 3;
+    background-size: cover;
+    width: 85px;
+    height: 85px;
+    opacity: 0.3;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
