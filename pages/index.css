@@ -40,6 +40,9 @@
 @import url(../blocks/timetable/__image/timetable__image.css);
 @import url(../blocks/video/video.css);
 @import url(../blocks/video/__title/video__title.css);
+@import url(../blocks/video/__link/video__link.css);
+@import url(../blocks/video/__photo/video__photo.css);
+@import url(../blocks/video/__button/video__button.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 

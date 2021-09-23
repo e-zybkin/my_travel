@@ -1,0 +1,6 @@
+.video {
+    width: 100%;
+    background-image: url("../../images/video.jpg");
+    background-position: center;
+    position: relative;
+}
