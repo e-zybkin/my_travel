@@ -1,0 +1,9 @@
+.timetable__fieldset {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 256px;
+  margin: 0;
+  padding: 0;
+}

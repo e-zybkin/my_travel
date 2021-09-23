@@ -1,0 +1,8 @@
+.timetable__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 410px;
+  min-height: 410px;
+  margin: 144px 212px 114px 65px;
+}

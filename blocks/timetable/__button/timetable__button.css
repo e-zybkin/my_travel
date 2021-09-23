@@ -1,0 +1,17 @@
+.timetable__button {
+  max-width: 220px;
+  min-height: 35px;
+  border: none;
+  background-color: black;
+  color: white;
+  margin: 0;
+  font-size: 16px;
+  letter-spacing: 3%;
+  text-align: center;
+  align-self: flex-end;
+  transition: opacity 0.35s linear;
+}
+
+.timetable__button:hover {
+  opacity: 0.75;
+}
