@@ -7,3 +7,11 @@
   letter-spacing: 5%;
   margin: 39px 0 0 0;
 }
+
+@media screen and (max-width: 767px) {
+  .people-talk__title {
+    font-size: 30px;
+    line-height: 38px;
+    margin-top: 15px;
+  }
+}

@@ -3,3 +3,17 @@
   flex-direction: row;
   justify-content: space-between;
 }
+
+@media screen and (max-width: 1023px) {
+  .people-talk__columns {
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 400px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .people-talk__columns {
+    min-height: 500px;
+  }
+}
