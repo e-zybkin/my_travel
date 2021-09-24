@@ -1,3 +1,9 @@
 .place_reversed {
     flex-direction: row-reverse;
 }
+
+@media screen and (max-width: 767px) {
+  .place_reversed {
+    flex-direction: column;
+  }
+}
