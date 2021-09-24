@@ -3,7 +3,32 @@
     line-height: 1.57;
     margin: 0;
 }
-
 .place__text:not(:last-child) {
     margin-bottom: 35px;
+}
+
+@media screen and (max-width: 1100px) {
+  .place__text {
+    font-size: 12px;
+    line-height: 1.5;
+  }
+  .place__text:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .place__text {
+    font-size: 8px;
+  }
+
+  .place__text:not(:last-child) {
+    margin-bottom: 18px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place__text {
+    font-size: 7px;
+  }
 }

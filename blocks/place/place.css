@@ -4,3 +4,11 @@
     max-height: 575px;
     height: 41.8vw;
 }
+
+@media screen and (max-width: 767px) {
+  .place {
+    flex-direction: column;
+    height: auto;
+    width: 320px;
+  }
+}
