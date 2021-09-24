@@ -6,6 +6,7 @@
     left: 5.3%;
     font-weight: bold;
     font-size: 41px;
+    z-index: 1;
 }
 
 @media screen and (max-width: 1279px) {
