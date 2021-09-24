@@ -7,18 +7,19 @@
 
 @media screen and (max-width: 1279px) {
   .header__title {
-    font-size: 28px;
+    font-size: 32px;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .header__title {
-    font-size: 21px;
+    font-size: 28px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .header__title {
-    font-size: 9px;
+    font-size: 22px;
+    margin-left: 20px
   }
 }
