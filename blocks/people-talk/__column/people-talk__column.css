@@ -2,3 +2,16 @@
   max-width: 260px;
   min-height: 142px;
 }
+
+@media screen and (max-width: 1279px) {
+  .people-talk__column {
+    max-width: 180px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .people-talk__column {
+    max-width: 100%;
+    min-height: 60px;
+  }
+}
