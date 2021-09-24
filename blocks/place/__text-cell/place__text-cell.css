@@ -23,7 +23,7 @@
 @media screen and (max-width: 767px) {
   .place__text-cell {
     width: 100%;
-    padding: 35px 35px 44px 35px;
+    padding: 35px 25px 44px 35px;
     min-height: 320px;
   }
 }
