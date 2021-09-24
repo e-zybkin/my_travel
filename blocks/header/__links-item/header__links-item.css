@@ -1,5 +1,5 @@
 .header__links-item:not(:last-child) {
-  margin-right: 30px;
+  margin-right: 40px;
 }
 
 @media screen and (max-width: 767px) {
