@@ -1,4 +1,31 @@
 .header {
   max-width: 1231px;
+  width: 89.39%;
   margin: 56px auto 139px auto;
 }
+
+@media screen and (max-width: 1279px) {
+  .header {
+    margin-bottom: 125px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .header {
+    margin-bottom: 100px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    margin-bottom: 75px;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .header {
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+}
+
