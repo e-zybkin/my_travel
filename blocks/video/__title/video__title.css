@@ -1,11 +1,12 @@
 .video__title {
-    margin: 0;
-    color: #fff;
-    position: absolute;
-    top: 20%;
-    left: 5.5%;
-    font-weight: bold;
-    font-size: 41px;
+  margin: 0;
+  color: #fff;
+  position: absolute;
+  top: 20%;
+  left: 5.5%;
+  font-weight: bold;
+  font-size: 41px;
+  z-index: 1;
 }
 
 @media screen and (max-width: 1279px) {
