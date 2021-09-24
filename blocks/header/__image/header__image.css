@@ -1,5 +1,8 @@
 .header__image {
-  width: 27.88vw;
-  max-height: 27.95vw;
+  max-width: 383px;
+  max-height: 383px;
+  width: 27.81vw;
+  height: 27.81vw;
   object-fit: cover;
 }
+

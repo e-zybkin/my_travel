@@ -1,11 +1,18 @@
 .header__link {
   text-decoration: none;
   font-size: 11px;
-  letter-spacing: 5%;
+  font-weight: bold;
   color: #000;
   transition: opacity 0.3s ease-in;
 }
 
 .header__link:hover {
   opacity: 50%;
+}
+
+@media screen and (max-width: 424px) {
+  .header__link {
+    font-size: 8px;
+    font-weight: normal;
+  }
 }
