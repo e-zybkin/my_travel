@@ -14,3 +14,16 @@
   top: 10px;
   left: 15px;
 }
+
+@media screen and (max-width: 1023px) {
+  .timetable__why{
+    min-height: 88px;
+    margin-bottom: 10px;
+  }
+
+  .timetable__why::placeholder {
+    position: absolute;
+    top: 0;
+    left: 10px;
+  }
+}

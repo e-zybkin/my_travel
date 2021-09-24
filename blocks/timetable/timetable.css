@@ -3,3 +3,21 @@
   width: 100%;
   min-height: 670px;
 }
+
+@media screen and (max-width: 1279px) {
+  .timetable{
+    min-height: 400px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .timetable{
+    min-height: 210px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .timetable {
+    flex-direction: column;
+  }
+}
