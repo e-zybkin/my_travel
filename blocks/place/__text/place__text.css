@@ -1,5 +1,5 @@
 .place__text {
-    font-size: 14px;
+    font-size: 15px;
     line-height: 1.57;
     margin: 0;
 }
@@ -9,7 +9,7 @@
 
 @media screen and (max-width: 1100px) {
   .place__text {
-    font-size: 12px;
+    font-size: 14px;
     line-height: 1.5;
   }
   .place__text:not(:last-child) {
@@ -18,10 +18,6 @@
 }
 
 @media screen and (max-width: 1023px) {
-  .place__text {
-    font-size: 13px;
-  }
-
   .place__text:not(:last-child) {
     margin-bottom: 18px;
   }
@@ -29,12 +25,12 @@
 
 @media screen and (max-width: 850px) {
   .place__text {
-    font-size: 10px;
+    font-size: 12px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .place__text {
-    font-size: 9px;
+    font-size: 12px;
   }
 }

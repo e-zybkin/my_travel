@@ -13,3 +13,10 @@
     padding-bottom: 20px;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .place__text-cell_small-bottom {
+    padding-bottom: 20px;
+    min-height: 350px;
+  }
+}
