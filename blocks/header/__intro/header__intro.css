@@ -4,7 +4,7 @@
   align-items: center;
   margin-top: 91px;
   padding-right: 96px;
-  box-sizing: content-box;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 1023px) {
@@ -17,5 +17,8 @@
 @media screen and (max-width: 767px) {
   .header__intro {
     margin-top: 35px;
+    flex-direction: column;
+    padding: 0;
+    width: 100%;
   }
 }
