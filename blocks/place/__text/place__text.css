@@ -4,7 +4,7 @@
     margin: 0;
 }
 .place__text:not(:last-child) {
-    margin-bottom: 35px;
+    margin-bottom: 20px;
 }
 
 @media screen and (max-width: 1100px) {
