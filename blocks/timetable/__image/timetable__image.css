@@ -4,6 +4,8 @@
 
 @media screen and (max-width: 767px) {
   .timetable__image {
+    align-self: center;
+    min-height: 320px;
     width: 100%;
   }
 }
