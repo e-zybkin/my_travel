@@ -24,6 +24,6 @@
   .place__text-cell {
     width: 100%;
     padding: 35px 25px 44px 35px;
-    min-height: 320px;
+    min-height: 300px;
   }
 }
