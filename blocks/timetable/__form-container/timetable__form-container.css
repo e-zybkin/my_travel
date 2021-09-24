@@ -2,3 +2,15 @@
   width: 50%;
   background-color: #F2F2F2;
 }
+
+@media screen and (max-width: 1279px) {
+  .timetable__form-container{
+    min-height: 300px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .timetable__form-container {
+    width: 100%;
+  }
+}

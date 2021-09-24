@@ -3,7 +3,19 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  min-height: 256px;
+  min-height: 236px;
   margin: 0;
   padding: 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .timetable__fieldset{
+    min-height: 180px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .timetable__fieldset {
+    min-height: 170px;
+  }
 }

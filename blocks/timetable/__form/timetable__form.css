@@ -2,7 +2,28 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  max-width: 410px;
-  min-height: 410px;
-  margin: 144px 212px 114px 65px;
+  max-width: 450px;
+  min-height: 390px;
+  margin: 144px 212px 135px 65px;
+}
+
+@media screen and (max-width: 1279px) {
+  .timetable__form{
+    margin: 110px 140px 60px 53px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .timetable__form{
+    min-height: 300px;
+    margin: 90px 90px 30px 27px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .timetable__form {
+    max-width: 240px;
+    min-height: 230px;
+    margin: 30px auto;
+  }
 }

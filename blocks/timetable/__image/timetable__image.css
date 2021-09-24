@@ -1,3 +1,9 @@
 .timetable__image {
   width: 50%;
 }
+
+@media screen and (max-width: 767px) {
+  .timetable__image {
+    width: 100%;
+  }
+}
