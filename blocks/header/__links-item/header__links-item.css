@@ -2,7 +2,7 @@
   margin-right: 30px;
 }
 
-@media screen and (max-width: 424px) {
+@media screen and (max-width: 767px) {
   .header__links-item:not(:last-child) {
     margin-right: 20px;
   }
