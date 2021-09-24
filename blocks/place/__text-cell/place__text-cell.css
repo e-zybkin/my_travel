@@ -16,14 +16,14 @@
 
 @media screen and (max-width: 1023px) {
   .place__text-cell {
-    padding: 40px 115px 53px 43px;
+    padding: 40px 50px 53px 43px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .place__text-cell {
     width: 100%;
-    padding: 35px 105px 44px 35px;
+    padding: 35px 35px 44px 35px;
     min-height: 267px;
   }
 }
